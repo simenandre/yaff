@@ -15,7 +15,7 @@ import (
 	"github.com/simenandre/yaff/components"
 )
 
-primes := [2]string{"black", "white"}
+colors := [2]string{"black", "white"}
 ---
 
 <h1>Hello world</h1>

@@ -1,18 +1,18 @@
-# YAFF
+# JAFF
 
-My name [is YAFF](https://youtu.be/qkBx0gMGuhY?t=19) (pronoused `jef` /dʒɛf/). I am a frontend
+My name [is JAFF](https://youtu.be/qkBx0gMGuhY?t=19) (pronoused `jef` /dʒɛf/). I am a frontend
 framework written in Go, so we don't have to use React (Server Components). 
 
 ## Example
 
-You create a file, let's call it `hello-world.yaff`.
+You create a file, let's call it `hello-world.jaff`.
 
 ```html
 ---
 package main
 
 import (
-	"github.com/simenandre/yaff/components"
+	"github.com/simenandre/jaff/components"
 )
 
 primes := [2]string{"black", "white"}
@@ -32,7 +32,7 @@ h1 {
 </style>
 ```
 
-Based on this file, YAFF will generate a file for the markup and Go-code and another
+Based on this file, JAFF will generate a file for the markup and Go-code and another
 for the styles (including CSS modules).
 
 The templates are structured like this:

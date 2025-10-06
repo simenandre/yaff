@@ -14,11 +14,16 @@ package main
 import (
 	"github.com/simenandre/yaff/components"
 )
+
+primes := [2]string{"black", "white"}
 ---
 
 <h1>Hello world</h1>
 
-<components.HelloWorld />
+
+{#each colors as color}
+	<components.HelloWorld color={color] />
+{/each}
 
 <style>
 h1 {

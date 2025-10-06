@@ -22,7 +22,7 @@ colors := [2]string{"black", "white"}
 
 
 {#each colors as color}
-	<components.HelloWorld color={color] />
+	<components.HelloWorld color={color} />
 {/each}
 
 <style>
